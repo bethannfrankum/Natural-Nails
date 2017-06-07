@@ -36,7 +36,7 @@ gulp.task('minify-css', function () {
 */
 
 gulp.task('sass', function () {
-    return gulp.src('styles/scss/**/*.scss')
+    return gulp.src('scss/**/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(cleanCSS())
@@ -45,7 +45,7 @@ gulp.task('sass', function () {
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest('dist/styles')) 
+        .pipe(gulp.dest('css/')) 
         .pipe(browserSync.reload({
             stream: true
         }));
