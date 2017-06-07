@@ -1,0 +1,12 @@
+.main-navigation{
+    overflow:hidden;
+
+    li{
+        display:block;
+        font-size:20px;
+        float:left;
+    }
+    a{
+        color:$primaryBrand;
+    }
+}

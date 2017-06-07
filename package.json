@@ -1,0 +1,22 @@
+{
+  "name": "nails",
+  "version": "1.0.0",
+  "description": "Restaurant OnePage HTML5 restaurant Template ======== <img src=\"https://cloud.githubusercontent.com/assets/10640964/8260476/cfaac5a0-16e5-11e5-8fc8-e9d3f46796e1.jpg\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bethannfrankum/Natural-Nails.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bethannfrankum/Natural-Nails/issues"
+  },
+  "homepage": "https://github.com/bethannfrankum/Natural-Nails#readme",
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,11 @@
+@import 'base/_reset.scss';
+@import 'base/_variables.scss';
+@import 'base/_defaults.scss';
+
+//Layout specific SCSS
+@import 'layout/_navigation.scss';
+
+
+//Import your page specific SCSS
+@import 'pages/_index.scss';
+
