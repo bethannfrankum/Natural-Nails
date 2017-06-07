@@ -36,7 +36,7 @@ gulp.task('minify-css', function () {
 */
 
 gulp.task('sass', function () {
-    return gulp.src('scss/**/*.scss')
+    return gulp.src('sass/**/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(cleanCSS())
@@ -68,5 +68,5 @@ gulp.task('browserSync',['sass'],  function () {
 gulp.task('dev', ['browserSync'], function () {
     gulp.watch('*.html', browserSync.reload);
     gulp.watch('scripts/**/*.js', browserSync.reload);
-    gulp.watch('styles/scss/**/*.scss', ['sass']);
+    gulp.watch('sass/**/*.scss', ['sass']);
 });
