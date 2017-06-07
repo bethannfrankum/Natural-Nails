@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/bethannfrankum/Natural-Nails#readme",
   "devDependencies": {
-    "gulp-sass": "^3.1.0"
+   "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-header": "^1.8.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0"
   }
 }
