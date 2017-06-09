@@ -219,5 +219,6 @@
 			new OnePageNav(this, options).init();
 		});
 	};
+    
 
 })( jQuery, window , document );
