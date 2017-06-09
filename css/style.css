@@ -240,6 +240,10 @@ p {
     border-color: #fb6e14;
 }
 
+.bottom-line {
+    font-size: 6px;
+}
+
 
 /*
  * Flexslider
