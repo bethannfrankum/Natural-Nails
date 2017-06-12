@@ -678,7 +678,7 @@ p {
     width: 64px;
     position: absolute;
     content: "";
-    background: url(../images/0103-served-plate_64.png) no-repeat;
+    background: url(../images/two-branches-symbol-of-frame.png) no-repeat;
     top: 0;
     left: 50%;
     margin-top: -50px;
@@ -938,7 +938,7 @@ p {
     width: 64px;
     position: absolute;
     content: "";
-    background: url(../images/0401-vegan.png) no-repeat;
+    background: url(../images/pineapple.png) no-repeat;
     top: 0;
     left: 50%;
     margin-top: -50px;
@@ -971,11 +971,21 @@ p {
 }
 
 #fh5co-menus .fh5co-food-menu h2.fh5co-drinks {
-    padding-left: 50px;
+    padding-left: 80px;
 }
 
 #fh5co-menus .fh5co-food-menu h2.fh5co-drinks:before {
-    background: url(../images/0301-pina-colada.png) no-repeat;
+    background: url(../images/nail.png) no-repeat;
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 64px;
+    height: 64px;
+}
+
+#fh5co-menus .other h2.otherServices:before {
+    background: url(../images/eye-make-up.png) no-repeat;
     content: "";
     position: absolute;
     top: -20px;
@@ -989,13 +999,23 @@ p {
 }
 
 #fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
-    background: url(../images/0302-steak.png) no-repeat;
+    background: url(../images/sandals.png) no-repeat;
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 64px;
-    height: 45px;
+    height: 65px;
+}
+
+#fh5co-menus .extras h2.extras1:before {
+    background: url(../images/diamond.png) no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 65px;
 }
 
 #fh5co-menus .fh5co-food-menu ul {
@@ -1093,10 +1113,10 @@ p {
 #fh5co-events .fh5co-heading .heading:before,
 #fh5co-events .fh5co-heading .heading::before {
     height: 64px;
-    width: 49px;
+    width: 64px;
     position: absolute;
     content: "";
-    background: url(../images/0402-chef.png) no-repeat;
+    background: url(../images/balloons.png) no-repeat;
     top: 0;
     left: 50%;
     margin-top: -50px;
@@ -1211,7 +1231,7 @@ p {
     width: 61px;
     position: absolute;
     content: "";
-    background: url(../images/0203-coffee-love.png) no-repeat;
+    background: url(../images/stwo-branches-symbol-of-frame.png) no-repeat;
     top: 0;
     left: 50%;
     margin-top: -50px;
@@ -1586,22 +1606,22 @@ p {
 
 #fh5co-type h3.with-icon.icon-1:before,
 #fh5co-type h3.with-icon.icon-1::before {
-    background: url(../images/type-1.png) no-repeat center center;
+    background: url(../images/nail-file.png) no-repeat center center;
 }
 
 #fh5co-type h3.with-icon.icon-2:before,
 #fh5co-type h3.with-icon.icon-2::before {
-    background: url(../images/type-2.png) no-repeat center center;
+    background: url(../images/tiptoe-feet-outline.png) no-repeat center center;
 }
 
 #fh5co-type h3.with-icon.icon-3:before,
 #fh5co-type h3.with-icon.icon-3::before {
-    background: url(../images/type-3.png) no-repeat center center;
+    background: url(../images/wax.png) no-repeat center center;
 }
 
 #fh5co-type h3.with-icon.icon-4:before,
 #fh5co-type h3.with-icon.icon-4::before {
-    background: url(../images/type-4.png) no-repeat center center;
+    background: url(../images/daisy.png) no-repeat center center;
 }
 
 #fh5co-type p {
