@@ -250,7 +250,7 @@ p {
  */
 
 #fh5co-home {
-    min-height: 700px;
+    /*min-height: 700px;*/
     background: #fff url(../images/loader.gif) no-repeat center center;
 }
 
